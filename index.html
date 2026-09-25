@@ -285,7 +285,7 @@
       </div>
       <div class="detail">
         <div class="detail-label">Začiatok</div>
-        <div class="detail-value">12:30<small>hod.</small></div>
+        <div class="detail-value">13:00<small>hod.</small></div>
       </div>
       <div class="detail full">
         <div class="detail-label">Kde</div>
@@ -340,9 +340,9 @@
       }
     })();
 
-    // Odpočítavanie do soboty 7. 11. 2026, 12:30 (SEČ = UTC+1)
+    // Odpočítavanie do soboty 7. 11. 2026, 13:00 (SEČ = UTC+1)
     (function () {
-      const target = Date.UTC(2026, 10, 7, 11, 30, 0);
+      const target = Date.UTC(2026, 10, 7, 12, 0, 0);
       const el = {
         d: document.getElementById('cd-days'),
         h: document.getElementById('cd-hours'),
@@ -375,7 +375,7 @@
         'BEGIN:VEVENT',
         'UID:oslava-50-20261107@patdesiatka',
         'DTSTAMP:20260925T000000Z',
-        'DTSTART:20261107T113000Z',
+        'DTSTART:20261107T120000Z',
         'DTEND:20261107T213000Z',
         'SUMMARY:Oslava 50. narodenín',
         'LOCATION:Reštaurácia HERKULES (poschodie)\\,Strojárska 3934/111\\, 069 01 Snina',
